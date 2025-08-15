@@ -1,0 +1,63 @@
+{
+    "create": {
+        "user":
+        {
+            "name":"Steve Jobs",
+            "email":"iam@apple.com",
+            "password":"112233"
+        },
+        "task":{
+            "name":"Criar uma nova versão de ipod",
+            "tags": ["ios", "music", "ipod"]
+        }
+    },
+
+    "duplicate": {
+        "user":
+        {
+            "name":"Amanda waller",
+            "email":"web@xequemate.com",
+            "password":"112233"
+        },
+        "task":{
+            "name":"Fazer novos amigos!",
+            "tags": []
+        }
+    },
+    "tagslimit": {
+        "user":
+        {
+            "name":"Amanda waller",
+            "email":"web@xequemate.com",
+            "password":"112233"
+        },
+        "task":{
+            "name":"Estudar Python",
+            "tags": ["sintaxe", "dicionarios", "tuplas", "algoritmos"]
+        }
+    },
+    "taskdone": {
+        "user":
+        {
+            "name":"Tony Stark",
+            "email":"cto@stark.com",
+            "password":"112233"
+        },
+        "task":{
+            "name":"criar uma nova IA",
+            "tags": ["aaaa", "bbbb", "cccc", "dddd"]
+        }
+    },
+    "delete": {
+        "user":
+        {
+            "name":"Tony Stark",
+            "email":"cto@stark.com",
+            "password":"112233"
+        },
+        "task":{
+            "name":"criar uma nova IA ultron",
+            "tags": ["aaaa", "bbbb", "cccc", "dddd"]
+        }
+    }
+}
