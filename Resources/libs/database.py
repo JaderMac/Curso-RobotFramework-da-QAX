@@ -2,9 +2,9 @@ from robot.api.deco import keyword
 from pymongo import MongoClient
 import bcrypt
 
-client=
+import  chave
 
-db = client['robotdb']
+db = chave.client['robotdb']
 
 @keyword('Clean user from database')
 def clean_user(user_email):
